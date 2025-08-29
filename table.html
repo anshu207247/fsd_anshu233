@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border:1px solid black;
+        }
+        td{
+            background-color:aquamarine;
+        }
+        
+        th,td{
+            border:1px solid black;
+            border-radius: 10px;
+            border-style: dashed;
+            text-align: center;
+            padding: 50px;
+            border-spacing: 30px;
+        }
+        td:hover{
+            background-color: yellow;
+        }
+        td:nth-child(even){
+            background-color: rgb(146, 231, 72)
+        }
+    </style>
+</head>
+<body>
+    <table style="width:200px;">
+        <caption>Student Details</caption>
+        <colgroup>
+        <col span="1" style="background-color: blueviolet">
+
+        <tr>
+            <th>S.No.</th>
+            <th>name</th>
+            <th>Roll No.</th>
+        </tr>
+        <colgroup>
+        <tr>
+            <td>9.</td>
+            <td>ANSHU</td>
+            <td>233</td>
+        </tr>
+    </table>
+</body>
+</html>
